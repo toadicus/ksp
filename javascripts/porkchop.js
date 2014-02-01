@@ -631,7 +631,7 @@
       return updateAdvancedControls();
     });
     $('#originSelect').change();
-    $('#destinationSelect').val('Duna');
+    $('#destinationSelect').val('Mun');
     $('#destinationSelect').change();
     $('#noInsertionBurnCheckbox').change(function(event) {
       if (CelestialBody[$('#destinationSelect').val()].mass != null) {
@@ -685,7 +685,7 @@
       return setTimeout(function() {
         $('#originSelect').val('Kerbin');
         $('#originSelect').change();
-        $('#destinationSelect').val('Duna');
+        $('#destinationSelect').val('Mun');
         return $('#destinationSelect').change();
       }, 0);
     });
