@@ -69,38 +69,38 @@
 
   })();
 
-  CelestialBody.Kerbol = Kerbol = new CelestialBody(1.756567e+28, 2.616e+08, 432000, null);
-
-  CelestialBody.Moho = Moho = new CelestialBody(3.6747079e21, 250000, 1210000, new Orbit(Kerbol, 5263138304, 0.2, 7.0, 70.0, 15.0, 3.14));
-
-  CelestialBody.Eve = Eve = new CelestialBody(1.2244127e23, 700000, 80500, new Orbit(Kerbol, 9832684544, 0.01, 2.1, 15.0, 0, 3.14), 5);
-
-  CelestialBody.Gilly = Gilly = new CelestialBody(1.2420512e17, 13000, 28255, new Orbit(Eve, 31500000, 0.55, 12.0, 80.0, 10.0, 0.9));
-
-  CelestialBody.Kerbin = Kerbin = new CelestialBody(5.2915793e22, 600000, 21600, new Orbit(Kerbol, 13599840256, 0.0, 0, 0, 0, 3.14), 1);
-
-  CelestialBody.Mun = Mun = new CelestialBody(9.7600236e20, 200000, 138984.38, new Orbit(Kerbin, 12000000, 0.0, 0, 0, 0, 1.7));
-
-  CelestialBody.Minmus = Minmus = new CelestialBody(2.6457897e19, 60000, 40400, new Orbit(Kerbin, 47000000, 0.0, 6.0, 78.0, 38.0, 0.9));
-
-  CelestialBody.Duna = Duna = new CelestialBody(4.5154812e21, 320000, 65517.859, new Orbit(Kerbol, 20726155264, 0.051, 0.06, 135.5, 0, 3.14), 0.2);
-
-  CelestialBody.Ike = Ike = new CelestialBody(2.7821949e20, 130000, 65517.862, new Orbit(Duna, 3200000, 0.03, 0.2, 0, 0, 1.7));
-
-  CelestialBody.Dres = Dres = new CelestialBody(3.2191322e20, 138000, 34800, new Orbit(Kerbol, 40839348203, 0.145, 5.0, 280.0, 90.0, 3.14));
-
-  CelestialBody.Jool = Jool = new CelestialBody(4.2332635e24, 6000000, 36000, new Orbit(Kerbol, 68773560320, 0.05, 1.304, 52.0, 0, 0.1), 15);
-
-  CelestialBody.Laythe = Laythe = new CelestialBody(2.9397663e22, 500000, 52980.879, new Orbit(Jool, 27184000, 0, 0, 0, 0, 3.14), 0.8);
-
-  CelestialBody.Vall = Vall = new CelestialBody(3.1088028e21, 300000, 105962.09, new Orbit(Jool, 43152000, 0, 0, 0, 0, 0.9));
-
-  CelestialBody.Tylo = Tylo = new CelestialBody(4.2332635e22, 600000, 211926.36, new Orbit(Jool, 68500000, 0, 0.025, 0, 0, 3.14));
-
-  CelestialBody.Bop = Bop = new CelestialBody(3.7261536e19, 65000, 544507.4, new Orbit(Jool, 128500000, 0.235, 15.0, 10.0, 25.0, 0.9));
-
-  CelestialBody.Pol = Pol = new CelestialBody(1.0813636e19, 44000, 901902.62, new Orbit(Jool, 179890000, 0.17085, 4.25, 2.0, 15.0, 0.9));
-
-  CelestialBody.Eeloo = Eeloo = new CelestialBody(1.1149358e21, 210000, 19460, new Orbit(Kerbol, 90118820000, 0.26, 6.15, 50.0, 260.0, 3.14));
+  CelestialBody.Kerbol = Kerbol = new CelestialBody(1.75631731050904E+28, 75431100, 432000, null);
+  
+  CelestialBody.Kerbin = Kerbin = new CelestialBody(5.29157926281091E+22, 600000, 211926, new Orbit(Jool, 68506000, 0.02, 0.4, 0, 0, 4.14), 1);
+  
+  CelestialBody.Mun = Mun = new CelestialBody(2.19219795579862E+21, 253000, 105963, new Orbit(Jool, 43152000, 0.002, 0.109, 180, 0, 1));
+  
+  CelestialBody.Minmus = Minmus = new CelestialBody(2.7195777644591E+18, 29000, 21154.7181842827, new Orbit(Jool, 14740300, 0, 0.03, 78, 38, 0.899999976158142));
+  
+  CelestialBody.Moho = Moho = new CelestialBody(2.52636168196748E+21, 250000, 1210000, new Orbit(Kerbol, 4075040399, 0.3, 0.2502, 70, 15, 3.14000010490417));
+  
+  CelestialBody.Eve = Eve = new CelestialBody(1.22441268043315E+23, 700000, 80500, new Orbit(Kerbol, 8185550300, 0.008, 1.02, 15, 0, 3.14000010490417), 3.303);
+  
+  CelestialBody.Duna = Duna = new CelestialBody(4.51548115036107E+21, 320000, 723158.005692375, new Orbit(Tylo, 34598850, 0.05, 0.7, 135.5, 0, 3.14000010490417), 0.178);
+  
+  CelestialBody.Ike = Ike = new CelestialBody(3.15106195684747E+17, 17500, 6983, new Orbit(Kerbol, 167988084550, 0.9585, 28.45, 0, 0, -1));
+  
+  CelestialBody.Jool = Jool = new CelestialBody(4.23326347332927E+24, 6000000, 36000, new Orbit(Kerbol, 13605008470, 0.017, 1.957, 35, 0, 0.100000001490116), 6.5);
+  
+  CelestialBody.Laythe = Laythe = new CelestialBody(2.9397663009231E+22, 500000, 52982, new Orbit(Jool, 27184000, 0, 0, 0, 0, 1), 0.8);
+  
+  CelestialBody.Vall = Vall = new CelestialBody(1.13021531514534E+20, 99800, 132113.350450246, new Orbit(Eeloo, 4995040, 0.011, 2.337, 0, 0, 0.899999976158142));
+  
+  CelestialBody.Bop = Bop = new CelestialBody(8.92884916092299E+16, 4900, 19590.5521251503, new Orbit(Kerbin, 3250900, 0.055, 0.12, 10, 25, 0.899999976158142));
+  
+  CelestialBody.Tylo = Tylo = new CelestialBody(7.21568172912047E+23, 1103000, 122805, new Orbit(Kerbol, 24708887045, 0.03, 1.22, 0, 0, 3.14000010490417), 0.554);
+  
+  CelestialBody.Gilly = Gilly = new CelestialBody(3.18597168115073E+16, 8500, 15034, new Orbit(Kerbol, 58084734575, 0.990504, 225.05, 25.3, 79.08, 4.603));
+  
+  CelestialBody.Pol = Pol = new CelestialBody(1.08136362001798E+19, 44000, 656059.234456975, new Orbit(Jool, 145500000, 0.083, 4.25, 120, 15, 0.899999976158142));
+  
+  CelestialBody.Dres = Dres = new CelestialBody(3.21913224453102E+20, 138000, 34800, new Orbit(Tylo, 17580043, 0.002, 0.109, 280, 90, 3.14000010490417));
+  
+  CelestialBody.Eeloo = Eeloo = new CelestialBody(2.30725361624213E+22, 478000, 19460, new Orbit(Kerbol, 90118820000, 0.08, 1.15, 50, 260, 3.14000010490417));
 
 }).call(this);
