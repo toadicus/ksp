@@ -91,8 +91,6 @@
   
   CelestialBody.Laythe = Laythe = new CelestialBody(2.9397663009231E+22, 500000, 52982, new Orbit(Jool, 27184000, 0, 0, 0, 0, 1), 0.8);
   
-  CelestialBody.Vall = Vall = new CelestialBody(1.13021531514534E+20, 99800, 132113.350450246, new Orbit(Eeloo, 4995040, 0.011, 2.337, 0, 0, 0.899999976158142));
-  
   CelestialBody.Bop = Bop = new CelestialBody(8.92884916092299E+16, 4900, 19590.5521251503, new Orbit(Kerbin, 3250900, 0.055, 0.12, 10, 25, 0.899999976158142));
   
   CelestialBody.Gilly = Gilly = new CelestialBody(3.18597168115073E+16, 8500, 15034, new Orbit(Kerbol, 58084734575, 0.990504, 225.05, 25.3, 79.08, 4.603));
@@ -102,5 +100,7 @@
   CelestialBody.Dres = Dres = new CelestialBody(3.21913224453102E+20, 138000, 34800, new Orbit(Tylo, 17580043, 0.002, 0.109, 280, 90, 3.14000010490417));
   
   CelestialBody.Eeloo = Eeloo = new CelestialBody(2.30725361624213E+22, 478000, 19460, new Orbit(Kerbol, 90118820000, 0.08, 1.15, 50, 260, 3.14000010490417));
+  
+  CelestialBody.Vall = Vall = new CelestialBody(1.13021531514534E+20, 99800, 132113.350450246, new Orbit(Eeloo, 4995040, 0.011, 2.337, 0, 0, 0.899999976158142));
 
 }).call(this);
