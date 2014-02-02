@@ -68,7 +68,16 @@
     return CelestialBody;
 
   })();
+  
+  CelestialBody.fromJSON = function(json) {
+    var orbit;
 
+    if (json.orbit != null) {
+      orbit = Orbit.fromJSON(json.orbit);
+    }
+    return new CelestialBody(json.mass, json.radius, json.siderealRotation, orbit, json.atmPressure);
+  };
+  
   CelestialBody.Kerbol = Kerbol = new CelestialBody(1.75631731050904E+28, 75431100, 432000, null);
   
   CelestialBody.Moho = Moho = new CelestialBody(2.52636168196748E+21, 250000, 1210000, new Orbit(Kerbol, 4075040399, 0.3, 0.2502, 70, 15, 3.14000010490417));

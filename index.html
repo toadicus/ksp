@@ -85,6 +85,8 @@
             border: 0;
           }
       }
+      
+      a[rel="license"] img { float: right; }
     </style>
   </head>
   <body>
@@ -173,9 +175,9 @@
                   <div class="col-sm-8 col-md-8">
                     <div class="input-group">
                       <span class="input-group-addon">Year</span>
-                      <input type="number" class="form-control" id="earliestDepartureYear" value="1" min="1" step="1">
+                      <input type="number" class="form-control" id="earliestDepartureYear" value="1" min="1" step="any">
                       <span class="input-group-addon">day</span>
-                      <input type="number" class="form-control" id="earliestDepartureDay" value="1" min="1" step="1">
+                      <input type="number" class="form-control" id="earliestDepartureDay" value="1" min="1" step="any">
                     </div>
                   </div>
                 </div>
@@ -199,9 +201,9 @@
                   <div class="col-sm-8 col-md-8">
                     <div class="input-group">
                       <span class="input-group-addon">Year</span>
-                      <input type="number" class="form-control" id="latestDepartureYear" value="1" min="1" step="1">
+                      <input type="number" class="form-control" id="latestDepartureYear" value="1" min="1" step="any">
                       <span class="input-group-addon">day</span>
-                      <input type="number" class="form-control" id="latestDepartureDay" value="1" min="1" step="1">
+                      <input type="number" class="form-control" id="latestDepartureDay" value="1" min="1" step="any">
                     </div>
                   </div>
                 </div>
@@ -314,11 +316,11 @@
         </div>
       </section>
       <footer>
+        <div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" about="http://alexmoon.github.io/ksp/">This planner has been forked from the <a href="http://alexmoon.github.io/ksp/"><span property="dct:title">Launch Window Planner</span></a> by <a rel="cc:attributionURL" property="cc:attributionName" href="https://github.com/alexmoon/ksp">alexmoon</a>. Used under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> license.</div>
         <p>
-          This calculator is forked from the <a href="http://alexmoon.github.io/ksp/">KSP Launch Window Planner</a> by <a href="https://github.com/alexmoon">alexmoon</a>.
-	  Menial data entry by <a href="http://forum.kerbalspaceprogram.com/members/69534">toadicus</a>
+	  Menial data entry by <a href="http://forum.kerbalspaceprogram.com/members/69534">toadicus</a>.
           Icons by <a href="http://glyphicons.com/">Glyphicons</a>.
-        </p>
+        </p>	
       </footer>
     </div>
     <form id="bodyForm" class="form-horizontal modal fade" tabindex="-1" role="dialog">
