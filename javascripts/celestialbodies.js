@@ -100,7 +100,7 @@
   
   CelestialBody.Laythe = Laythe = new CelestialBody(2.9397663009231E+22, 500000, 52982, new Orbit(Jool, 27184000, 0, 0, 0, 0, 1), 0.8);
   
-  CelestialBody.Bop = Bop = new CelestialBody(8.92884916092299E+16, 4900, 19590.5521251503, new Orbit(Kerbin, 3250900, 0.055, 0.12, 10, 25, 0.899999976158142));
+  CelestialBody.Bop = Bop = new CelestialBody(3.7261536e19, 65000, 544507.4, new Orbit(Jool, 200805430, 0.09, 0.894, 10.0, 25.0, 0.9));
   
   CelestialBody.Gilly = Gilly = new CelestialBody(3.18597168115073E+16, 8500, 15034, new Orbit(Kerbol, 58084734575, 0.990504, 225.05, 25.3, 79.08, 4.603));
   
