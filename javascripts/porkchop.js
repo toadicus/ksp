@@ -449,7 +449,7 @@
     minDays = minDays < 10 ? minDays.toFixed(2) : minDays.toFixed();
     maxDays = maxDays < 10 ? maxDays.toFixed(2) : maxDays.toFixed();
     $('#latestDepartureYear').val((maxDeparture / 365 | 0) + 1);
-    $('#latestDepartureDay').val(Math.ceil((maxDeparture % 365)) + 1);
+    $('#latestDepartureDay').val((maxDeparture % 365) + 1);
     $('#shortestTimeOfFlight').val(minDays);
     $('#longestTimeOfFlight').val(maxDays);
     if (destination.mass != null) {
